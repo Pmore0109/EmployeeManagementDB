@@ -36,7 +36,7 @@ public class EMployeeController {
 	@GetMapping("getemployee/{id}")
 	Employee getemployee(@PathVariable int id)
 	{
-		
+		System.out.println(es.getEMployee(id));		
 		return es.getEMployee(id); 
 	}
 	
