@@ -7,9 +7,6 @@ import jakarta.persistence.Id;
 public class Employee {
 
 	@Id
-
-
-	
 	private int id;
 	private String name;
 	private String address;
